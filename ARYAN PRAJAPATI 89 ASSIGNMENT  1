@@ -1,0 +1,256 @@
+Q1
+#include <stdio.h>
+int main() {
+int a , b , sum;
+printf("Enter two numbers");
+scanf("%d%d", &a,&b);
+sum = a+b;
+printf("sum= %d, sum);
+return 0;
+}
+
+Q2
+#include <stdio.h>
+int main() {
+int a , b , subtract;
+printf("Enter two numbers");
+scanf("%d%d", &a,&b);
+subtract = a-b;
+printf("subtract= %d, subtract);
+return 0;
+}
+
+Q3
+#include <stdio.h>
+int main() {
+int a , b , multiply;
+printf("Enter first number");
+scanf("%d", &a);
+printf("Enter second number");
+scanf("%d", &b);
+multiply = a*b;
+printf("multiply= %d, multiply);
+return 0;
+}
+
+Q4
+#include <stdio.h>
+int main() {
+int a , b , divison;
+printf("Enter first number");
+scanf("%d", &a);
+printf("Enter second number");
+scanf("%d", &b);
+multiply = a/b;
+printf("divison= %d, divison);
+return 0;
+}
+
+Q5
+#include <stdio.h>
+int main() {
+int a = 20,b = 10,c;
+c = a+b
+printf("a+b =%d,c");
+c = a-b
+printf("a*b =%d,c");
+c = a*b
+printf("a/b =%d,c");
+c = a/b
+printf("a+b =%d,c");
+return 0;
+}
+Q6
+#include <stdio.h>
+int main() {
+int hours, minutes;
+printf("Enter hours");
+scanf("%d",&hours);
+minutes=hours*60;
+printf("%d hours is %d minutes",hours,minutes);
+return 0;
+}
+Q7
+#include <stdio.h>
+int main() {
+int hours, minutes;
+printf("Enter minutes");
+scanf("%d",&minutes);
+hours=minutes/60;
+printf("%d minutes is %d hours",minutes,hours);
+return 0;
+}
+Q8
+#include <stdio.h>
+int main() {
+float dollars, rupees;
+printf("Enter the amount in dollars");
+scanf("%f", &dollars);
+rupees = dollars*48;
+printf("%f dollars is equal to %f  rupees", dollars, rupees);
+return 0;
+}
+Q9
+#include <stdio.h>
+int main() {
+float dollars, rupees;
+printf("Enter the amount in rupees");
+scanf("%f", &rupees);
+dollars = rupees/48;
+printf("%f rupees is equal to %f  dollars", rupees, dollars);
+return 0;
+}
+
+Q11
+#include <stdio.h>
+int main() {
+int grams , kg ;
+printf("Entr the amount in grams");
+scanf("%d", &grams);
+kg = grams / 1000;
+printf("%d grams is equal to %d kg", grams,  kg);
+return 0;
+}
+
+Q12
+#include <stdio.h>
+int main() {
+int grams , kg ;
+printf("Entr the amount in kg");
+scanf("%d", &kg);
+grams = kg * 1000;
+printf("%d kg is equal to %d grams", grams,  kg);
+return 0;
+}
+
+Q13
+#include <stdio.h>
+float main() {
+float byte, KB,  MB, KB;
+printf("Enter the amount in bytes");
+scanf("%f",&bytes);
+KB = bytes / 1024;
+printf("%f bytes is equal to %f KB,bytes,KB );
+MB = bytes / 1048576;
+printf("%f bytes is equal to %f MB,bytes,MB );
+GB = bytes / 1073741824;
+printf("%f bytes is equal to %f GB,bytes,GB );
+return 0;
+}
+
+Q14
+#include <stdio.h>
+float main() {
+float C, F;
+printf("Enter the temperature in C");
+scanf("%f", &C);
+F = 9/5*C + 32;
+printf("%f celsius is equal to %f fahrenheit", C, F);
+return 0;
+}
+
+Q15
+#include <stdio.h>
+float main() {
+float C, F;
+printf("Enter the temperature in F");
+scanf("%f", &F);
+C = (F - 32) * 5/9;
+printf("%f fahreinheit is equal to %f celsius", F, C);
+return 0;
+}
+
+Q16
+#include <stdio.h>
+int main() {
+float P=10,R=34,N=12;
+float SI = P*R*N / 100;
+printf("Interest = %f",SI);
+return 0;
+}
+
+Q17
+#include <stdio.h>
+int main() {
+int Area, Perimeter, Length;
+printf("Enter the Length");
+scanf("%d", &Length);
+Area = Length * Length;
+printf(" Area of Square = %d, Area);
+Perimeter = 4 * Length;
+printf(" Perimeter of Square = %d, perimeter);
+return 0;
+}
+
+Q18
+#include <stdio.h>
+int main() {
+int Area, Perimeter, Length, Breadth;
+printf("Enter the Length");
+scanf("%d", &Length);
+printf("Enter the Breadth");
+scanf("%d", &Breadth);
+Area = Length * Breadth;
+printf(" Area of Rectangle = %d, Area);
+Perimeter = 2*(Length + Breadth);
+printf(" Perimeter of Rectangle = %d, perimeter);
+return 0;
+}
+
+Q19
+#include <stdio.h>
+float main() {
+float Area, Radius;
+printf("Enter the Radius");
+scanf("%f", &Radius);
+Area = 3.14 * Radius * Radius;
+printf(" Area of the Circle = %f", Area);
+return 0;
+}
+
+Q20
+#include <stdio.h>
+int main() {
+int Area, Base, Height;
+printf("Enter the Base");
+scanf("%d", &Base;
+printf("Enter the Height");
+scanf("%d", &Height;
+Area = (Base * Height) / 2;
+printf("Area of Triangle = %d", Area);
+return 0;
+}
+
+Q23
+#include <stdio.h>
+int main() {
+int s1, s2, s3, total;
+printf("Enter the marks of three subjects: ");
+scanf("%d%d%d", &s1, &s2, &s30);
+total = s1 + s2 + s3;
+average = total / 3;
+printf("total = %d\n average = %f",total, average);
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
